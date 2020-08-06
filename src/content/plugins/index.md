@@ -13,12 +13,13 @@ contributors:
 ---
 
 webpack has a rich plugin interface. Most of the features within webpack itself use this plugin interface. This makes webpack __flexible__.
+webpack 拥有丰富的插件，Webpack 的大多数功能都使用这些插件。这使得 webpack 更加灵活。
 
-Name                                                     | Description
+名称                                                     | 详情
 -------------------------------------------------------- | -----------
-[`BabelMinifyWebpackPlugin`](/plugins/babel-minify-webpack-plugin) | Minification with [babel-minify](https://github.com/babel/minify)
-[`BannerPlugin`](/plugins/banner-plugin)                 | Add a banner to the top of each generated chunk
-[`CommonsChunkPlugin`](/plugins/commons-chunk-plugin)    | Extract common modules shared between chunks
+[`BabelMinifyWebpackPlugin`](/plugins/babel-minify-webpack-plugin) | 用 [babel-minify](https://github.com/babel/minify)缩小
+[`BannerPlugin`](/plugins/banner-plugin)                 | 在每个生成的代码块的顶部添加注释
+[`CommonsChunkPlugin`](/plugins/commons-chunk-plugin)    | 提取代码块之间共享的通用模块
 [`CompressionWebpackPlugin`](/plugins/compression-webpack-plugin) | Prepare compressed versions of assets to serve them with Content-Encoding
 [`ContextReplacementPlugin`](/plugins/context-replacement-plugin) | Override the inferred context of a `require` expression
 [`CopyWebpackPlugin`](/plugins/copy-webpack-plugin) | Copies individual files or entire directories to the build directory
